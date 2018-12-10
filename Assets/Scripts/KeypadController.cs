@@ -77,6 +77,6 @@ public class KeypadController : MonoBehaviour
         yield return new WaitForSeconds(2);
         endSound.PlayAudio();
         yield return new WaitForSeconds(5);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }
